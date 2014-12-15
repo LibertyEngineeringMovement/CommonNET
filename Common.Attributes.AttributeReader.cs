@@ -40,4 +40,9 @@ namespace Common.Attributes
             return MethodInfo.GetCustomAttribute<T>();
         }
     }
+    
+    public class MethodNotFoundException : Exception {}
+    public class MethodNotFoundException : Exception {}
+    public class ParameterNotFoundException : Exception {}
+
 }
