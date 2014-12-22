@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CommonNet
+namespace Common.Data
 {
     /// <summary>
     /// Extensions for the SQL data reader for casting and nulls
