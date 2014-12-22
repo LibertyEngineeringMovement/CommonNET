@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Reflection;
-using Common.Attribute;
+using Common.Reflection;
 
-namespace Common.Attributes
+namespace Common.Reflection
 {
     public class AttributeReader<T> where T : System.Attribute
     {
