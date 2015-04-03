@@ -1,3 +1,7 @@
+/*
+ * This is obsoleted code. Just GOOGLE: "DateTimeOffset Change Timezone". Don't Bing it, the results will be useless.
+ */
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
