@@ -7,9 +7,9 @@ using Newtonsoft;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 
-namespace Common
+namespace Common.String
 {
-    public static class SystemStringUtilities
+    public static class Utilities
     {
 
         /// <summary>
