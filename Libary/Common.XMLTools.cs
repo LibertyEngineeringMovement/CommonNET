@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.XPath;
 
-namespace Common
+namespace Common.XML
 {
-    public static class XMLTools
+    public static class Tools
     {
         /// <summary>
         /// Generates the node from executable path.
