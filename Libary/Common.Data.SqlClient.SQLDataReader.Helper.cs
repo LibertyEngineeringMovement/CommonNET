@@ -7,12 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Common.Data.SqlClient
+namespace Common.Data.SqlClient.SQLDataReader
 {
     /// <summary>
     /// Extensions for the SQL data reader for casting and nulls
     /// </summary>
-    public static class SQLDataReaderHelper
+    public static class Helper
     {
         #region Get Guid
         public static Guid? GetGuidOrNull(this DbDataReader sdr, int index){
