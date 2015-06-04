@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace Common
+namespace Common.String
 {
-    public static class DictionaryStringStringHelper
+    public static class StringDictionaryHelper
     {
         public static bool ToBool(this Dictionary<string, string> dict, string key, bool defaultval = false)
         {
