@@ -8,9 +8,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CommonNet
+namespace Common.DateTimeOffset
 {
-    public static class DateTimeOffsetExtender
+    public static class Extender
     {
 
         public static DateTimeOffset ToNewTimeZone(this DateTimeOffset value, TimeZoneInfo tzObject)
