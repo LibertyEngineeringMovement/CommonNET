@@ -12,4 +12,5 @@ A slowly building collection of my common libraries.
 * Common.String.StringUtilities - More common string utilities for working with web development.
 * Common.XMLTools - Shortcut for getting nodes from an XPath being applied to current node. I may make a version of this for jSON later.
 * Common.Image.Tools - Encodes bitmaps into base 64 strings so that you can embed them into your CSS and HTML.
+* JsonNetResult - for those of use who like the JSon.NET library better than the MS library.
 * More to come
