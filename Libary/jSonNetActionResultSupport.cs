@@ -19,6 +19,7 @@ namespace System.Web.Mvc
         public JsonSerializerSettings SerializerSettings { get; set; }
         public Formatting Formatting { get; set; }
 
+        //Usecase: public JsonNetResult GetData(int id){... Your code here ...}
         public JsonNetResult()
         {
             SerializerSettings = new JsonSerializerSettings();
@@ -52,6 +53,7 @@ namespace System.Web.Mvc
 
     public static class ControllerExtender
     {
+//Usecase: return this.JsonNetResult(MyReturnData);        
         public static JsonNetResult JsonNet
           (this Controller ctrl, object data, 
            Formatting formatting = Formatting.Indented) 
