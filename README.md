@@ -1,5 +1,12 @@
-CommonNET
-=========
+## Status
+Due to the release of .NET Core 2, and the supporting libraries, I am going to branch and retire the root.
+I'll use this repository to manage the new library, which will focus on being .NET Standars, and keep to pure standards. Meaning a lot of .NET Standard libraries are nothing more than Framework based code, so it messes up the Core deployments.
+
+Since I just lived through that, I won't subject other to that.
+
+Expect a new branch in Q3 2018
+
+## CommonNET
 
 A slowly building collection of my common libraries.
 
